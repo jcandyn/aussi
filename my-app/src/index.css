@@ -12,7 +12,7 @@ body {
   text-align: center;
   line-height: 1;
   margin: 0;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -50,3 +50,27 @@ body {
 }
 
 /*# sourceMappingURL=index.css.map */
+
+.enclosing_div {
+  width: 50%;
+  margin: 0 auto;
+  color: #61c0c8;
+  margin-top: 20%;
+  background-color: white;
+  padding: 8%;
+  line-height: 180%;
+  font-size: 18px;
+}
+
+.entire_div {
+ 
+}
+
+.footer {
+
+  margin: 0 auto;
+  margin-bottom: 0px;
+  font-size:10px;
+  color: white;
+
+}

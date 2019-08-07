@@ -4,7 +4,7 @@ import React from 'react';
 class Header extends React.Component {
     render() {
         return (
-            <h1 className="header_edit" contenteditable data-heading="Assuis">Assuis</h1>
+            <h1 className="header_edit" data-heading="Assuis">Assuis</h1>
         )
     }
 }
