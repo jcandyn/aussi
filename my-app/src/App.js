@@ -1,11 +1,11 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Header from "./Header"
+import Header from "./components/Header"
 // import Footer from "./Footer"
-import Main from "./Main"
+import Main from "./components/Main"
 // import NavbarInstance from './NavbarInstance';
-import Search from "./Search"
+import Search from "./components/Search"
 
 
 class App extends React.Component {

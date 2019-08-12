@@ -109,13 +109,13 @@ body {
 } */
 /* Sizes */
 .button--size-s {
-	font-size: 14px;
+	font-size: 10px;
 }
 .button--size-m {
-	font-size: 16px;
+	font-size: 18px;
 }
 .button--size-l {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 /* Typography and Roundedness */
@@ -160,7 +160,7 @@ body {
 .button--rayen {
 	overflow: hidden;
 	padding: 0;
-	width: 230px;
+	width: 190px;
 }
 .button--rayen.button--inverted {
 	color: #fff;
