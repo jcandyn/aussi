@@ -9,6 +9,9 @@ import Search from "./components/Search"
 
 
 class App extends React.Component {
+  componentDidMount() {
+    callBackendAPI()
+  }
   render() {
     return (
       <div className="entire_div container">
