@@ -11,7 +11,7 @@ router.get("/", function(req, res) {
 });
 
 router.get("/test", function(req, res) {
-  res.json("test");
+  res.send("test");
 });
 
 router.get("/aussi", function(req, res) {

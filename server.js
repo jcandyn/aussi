@@ -16,11 +16,11 @@ app.use(express.json());
 // Star Wars Characters (DATA)
 // =============================================================
 
-// app.get("/", function(req, res) {
-//     // res.send("Welcome to the Star Wars Page!")
-//     res.send("connected!")
-//     console.log("connected")
-//   });
+app.get("/test", function(req, res) {
+    // res.send("Welcome to the Star Wars Page!")
+    res.send("test!")
+    console.log("connected")
+  });
 
 // app.listen(PORT, function() {
 //     console.log("App listening on PORT " + PORT);
