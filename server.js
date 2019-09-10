@@ -2,6 +2,7 @@
 // =============================================================
 var express = require("express");
 var path = require("path");
+var router = require('./controllers/aussi_controller.js');
 
 // Sets up the Express App
 // =============================================================
@@ -18,11 +19,15 @@ app.use(express.json());
 app.get("/", function(req, res) {
     // res.send("Welcome to the Star Wars Page!")
     res.send("connected!")
+    console.log("connected")
   });
 
 // app.listen(PORT, function() {
 //     console.log("App listening on PORT " + PORT);
 //   });
+
+app.use('/', router);
+app.use(express.static("public"));
 
   var port = process.env.PORT || 5000;
 app.listen(PORT, function() {
