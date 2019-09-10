@@ -10,6 +10,10 @@ router.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "../my-app/public/index.html"));
 });
 
+router.get("/test", function(req, res) {
+  res.json("test");
+});
+
 router.get("/aussi", function(req, res) {
     word.selectAll(function(data) {
       var hbsObject = {
