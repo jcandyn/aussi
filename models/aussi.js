@@ -23,6 +23,11 @@ var word = {
     orm.delete(table, condition, function (res) {
       callback(res);
     });
+  },
+  findAlike: function (table,callback) {
+    orm.findAlike(table,callback, function(res) {
+      callback(res)
+    })
   }
 };
 

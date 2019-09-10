@@ -88,6 +88,20 @@ var orm = {
 
       callback(result);
     });
+  },
+
+  findAlike: function(table, callback) {
+    var queryString = 'SELECT * FROM ' + table;
+    queryString = queryString + ' WHERE ';
+    queryString = queryString + 'definition LIKE "%attractive%"';
+    console.log(queryString);
+    connection.query(queryString, function (err, result) {
+      if (err) {
+        throw err;
+      }
+
+      callback(result);
+    });
   }
 };
 
