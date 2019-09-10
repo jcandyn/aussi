@@ -20,6 +20,11 @@ app.get("/", function(req, res) {
     res.send("connected!")
   });
 
+// app.listen(PORT, function() {
+//     console.log("App listening on PORT " + PORT);
+//   });
+
+  var port = process.env.PORT || 5000;
 app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
+  console.log("App is listening on port " + port);
+});
